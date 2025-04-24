@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <!-- Required channel metadata -->
+    <title>My Recording Feed</title>
+    <link>https://example.com/</link>
+    <description>A simple feed for my MP3</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Apr 2025 12:00:00 +0530</lastBuildDate>
+
+    <!-- A single item pointing to your MP3 -->
+    <item>
+      <title>Episode 1: My Recording</title>
+      <enclosure url="https://github.com/amarapache/music/blob/main/Waheguru_Simran%20(1).mp3"
+                 length="25245925"
+                 type="audio/mp3"/>
+      <guid>https://github.com/amarapache/music/blob/main/Waheguru_Simran%20(1).mp3</guid>
+      <pubDate>Thu, 24 Apr 2025 12:00:00 +0530</pubDate>
+      <description>This is my first uploaded recording.</description>
+    </item>
+  </channel>
+</rss>
